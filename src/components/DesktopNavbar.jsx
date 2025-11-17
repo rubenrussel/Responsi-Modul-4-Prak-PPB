@@ -13,7 +13,11 @@ export default function DesktopNavbar({ currentPage, onNavigate }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center">
-            <h1 className="text-2xl font-bold text-emerald-600">Jurnal PWA</h1>
+            {/* --- PERUBAHAN DI SINI --- */}
+            <h1 className="text-2xl font-bold text-emerald-600">
+              Katalog Film
+            </h1>
+            {/* --- AKHIR PERUBAHAN --- */}
           </div>
           <div className="flex space-x-4">
             {navItems.map((item) => (
@@ -33,6 +37,6 @@ export default function DesktopNavbar({ currentPage, onNavigate }) {
           </div>
         </div>
       </div>
-    </nav>
+    </nav> // <-- INI YANG BENAR (BUKAN NBSP_PLACEHOLDER)
   );
 }

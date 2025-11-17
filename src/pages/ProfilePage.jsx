@@ -3,9 +3,9 @@ import React from 'react';
 export default function ProfilePage() {
   // ===== PENTING: GANTI DATA DI BAWAH INI =====
   const profileData = {
-    nama: 'Nama Lengkap Anda',   // Ganti dengan nama Anda
-    nim: 'NIM Anda',             // Ganti dengan NIM Anda
-    kelompok: 'Kelompok Anda'    // Ganti dengan kelompok Anda
+    nama: 'Gerhad Ruben Russel Anggoro',   // Ganti dengan nama Anda
+    nim: '21120120130075',             // Ganti dengan NIM Anda
+    kelompok: '46'    // Ganti dengan kelompok Anda
   };
   // ============================================
 
@@ -33,9 +33,6 @@ export default function ProfilePage() {
               <span className="text-gray-900">{profileData.kelompok}</span>
             </li>
           </ul>
-          <p className="mt-6 text-sm text-gray-500 text-center">
-            Data profil ini bersifat statis untuk memenuhi tugas proyek akhir.
-          </p>
         </div>
       </div>
     </div>
