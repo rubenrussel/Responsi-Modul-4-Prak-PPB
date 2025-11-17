@@ -4,14 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // --- INI PERBAIKAN UNTUK 'npm run dev' ---
-  server: {
-    headers: {
-      // Memberi izin server dev untuk memuat gambar dari domain ini
-      'Content-Security-Policy': "img-src 'self' data: https://image.tmdb.org;"
-    }
-  },
-  // --- AKHIR PERBAIKAN 'dev' ---
+  // Kita HAPUS bagian 'server' dan 'preview' yang salah dari sini
 
   plugins: [
     react(),
@@ -45,13 +38,4 @@ export default defineConfig({
       }
     })
   ],
-
-  // --- INI PERBAIKAN UNTUK 'npm run preview' ---
-  preview: {
-    headers: {
-      // Memberi izin server preview untuk memuat gambar dari domain ini
-      'Content-Security-Policy': "img-src 'self' data: https://image.tmdb.org;"
-    }
-  }
-  // --- AKHIR PERBAIKAN 'preview' ---
 })
