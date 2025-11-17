@@ -1,11 +1,11 @@
 import React from 'react';
 
 export default function ProfilePage() {
-  // ===== PENTING: GANTI DATA DI BAWAH INI =====
+
   const profileData = {
     nama: 'Gerhad Ruben Russel Anggoro',   // Ganti dengan nama Anda
     nim: '21120120130075',             // Ganti dengan NIM Anda
-    kelompok: '46'    // Ganti dengan kelompok Anda
+    kelompok: '41'    // Ganti dengan kelompok Anda
   };
   // ============================================
 
