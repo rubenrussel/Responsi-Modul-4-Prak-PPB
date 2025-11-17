@@ -11,10 +11,10 @@ export default function HomePage() {
       </h1>
       {/* --- AKHIR PERUBAHAN --- */}
       <p className="text-lg text-gray-700 mb-8 max-w-2xl">
-        Ini adalah aplikasi PWA untuk mencatat koleksi film favorit Anda.
+        Ini adalah aplikasi PWA koleksi film.
       </p>
       <p className="text-md text-gray-500">
-        Gunakan navigasi untuk melihat Galeri Film atau Profil Anda.
+        Gunakan navigasi untuk melihat Galeri Film atau Profil.
       </p>
     </div>
   );
