@@ -5,7 +5,7 @@ export default function ProfilePage() {
   const profileData = {
     nama: 'Gerhad Ruben Russel Anggoro',   // Ganti dengan nama Anda
     nim: '21120120130075',             // Ganti dengan NIM Anda
-    kelompok: '41'    // Ganti dengan kelompok Anda
+    kelompok: '31'    // Ganti dengan kelompok Anda
   };
   // ============================================
 
